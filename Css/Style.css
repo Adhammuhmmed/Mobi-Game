@@ -1,0 +1,107 @@
+body {
+  font-family: "Cairo", sans-serif;
+  color: #fff;
+}
+
+.home {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0% 100%),
+    url("../images/header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.shape {
+  width: 150px;
+  height: 2px;
+}
+
+.text-small {
+  font-size: 15px;
+}
+
+.main-text {
+  color: #f2cf3f;
+}
+.main-bg {
+  background-color: #f2cf3f;
+}
+.time {
+  font-size: 25px;
+}
+
+@media (max-width: 550px) {
+  .time {
+    font-size: 25px;
+    /* width: 47%; */
+    flex-wrap: wrap;
+    width: 40%;
+    gap: 0 !important;
+  }
+  .timep {
+    margin-bottom: 150px;
+    padding-inline: 100px;
+  }
+  .home {
+    height: auto !important;
+  }
+
+  .goods-item {
+    flex-direction: column !important;
+    padding: 10px !important;
+  } 
+  .inp input {
+    width: 50% !important;
+  }
+  .footer-foot {
+    width: 100% !important;
+  }
+}
+
+.inp input {
+  padding: 5px;
+  border-left: transparent;
+  border: 2px solid #ccc;
+}
+
+.shape-2 {
+  margin-left: 15px;
+}
+
+
+.second-text {
+    color: #333;
+}
+
+.second-bg {
+  background-color: #333;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0% 100%),
+  url("../images/footer-bg.jpg");
+background-position: center center;
+background-size: cover;
+}
+
+.icon {
+  background-color: rgba(128, 128, 128, 0.315);
+  width: 50px;
+  height: 50px;
+}
+.yellow {
+  background-color: #f2cf3f;
+  width: 50px;
+  height: 50px;
+}
+.yellow i {
+color: #333;
+}
+
+.icon i {
+  font-size: 18px;
+}
+
+.footer-foot {
+  border-top: 1px solid gray;
+}
